@@ -8,9 +8,13 @@ import MessageClass from "./components/MessageClass";
 
 import CounterClass from "./components/CounterClass";
 
+import ParentComponentClass from "./components/ParentComponentClass";
+
 function App() {
   return (
     <div className="App">
+      <Greet name="Yamtee (Not)" heroName="Hero" />
+
       {/* <Greet name="Yamtee (Not)" />
       <Greet>
         <h1>Hekkkkkkk </h1>
@@ -21,6 +25,9 @@ function App() {
 
       <MessageClass />
       <CounterClass></CounterClass>
+
+      <ParentComponentClass greet="Hi" />
+      <ParentComponentClass greet="Hello" />
 
       {/* <Hello /> */}
     </div>
