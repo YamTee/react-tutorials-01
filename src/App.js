@@ -12,12 +12,19 @@ import ParentComponentClass from "./components/ParentComponentClass";
 
 import NameList from "./components/NameList";
 
+import FormClass from "./components/FormClass";
+
 function App() {
   return (
     <div className="App">
-      <Greet name="Yamtee (Not)" heroName="Hero" />
+      <div className="container mx-auto px-4">
+        <Greet name="Yamtee (Not)" heroName="Hero" />
 
-      {/* <Greet name="Yamtee (Not)" />
+        <h1 className="text-3xl font-bold underline text-sky-400">
+          Hello world!
+        </h1>
+
+        {/* <Greet name="Yamtee (Not)" />
       <Greet>
         <h1>Hekkkkkkk </h1>
       </Greet>
@@ -25,15 +32,18 @@ function App() {
 
       <GreetClass name="Yamtee" /> */}
 
-      <MessageClass />
+        {/* <MessageClass />
       <CounterClass></CounterClass>
 
       <ParentComponentClass greet="Hi" />
-      <ParentComponentClass greet="Hello" />
+      <ParentComponentClass greet="Hello" /> */}
 
-      <NameList />
+        {/* <NameList /> */}
 
-      {/* <Hello /> */}
+        {/* <Hello /> */}
+
+        <FormClass />
+      </div>
     </div>
   );
 }
