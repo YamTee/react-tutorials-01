@@ -10,6 +10,8 @@ import CounterClass from "./components/CounterClass";
 
 import ParentComponentClass from "./components/ParentComponentClass";
 
+import NameList from "./components/NameList";
+
 function App() {
   return (
     <div className="App">
@@ -28,6 +30,8 @@ function App() {
 
       <ParentComponentClass greet="Hi" />
       <ParentComponentClass greet="Hello" />
+
+      <NameList />
 
       {/* <Hello /> */}
     </div>
