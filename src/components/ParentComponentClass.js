@@ -4,6 +4,8 @@ import ChildComponent from "./ChildComponent";
 import RegularComponent from "./RegularComponent";
 import PureComp from "./PureComponent";
 
+import MemoComp from "./MemoComp";
+
 class ParentComponentClass extends Component {
   constructor(props) {
     super(props);
@@ -39,8 +41,9 @@ class ParentComponentClass extends Component {
           greetText={this.props.greet}
         /> */}
 
-        <RegularComponent value={this.state} />
-        <PureComp value={this.state} />
+        {/*<RegularComponent value={this.state} />
+        <PureComp value={this.state} /> */}
+        <MemoComp value={this.state.name} />
       </div>
     );
   }
