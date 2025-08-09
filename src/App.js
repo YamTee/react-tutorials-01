@@ -35,14 +35,16 @@ function App() {
         {/* <MessageClass />
       <CounterClass></CounterClass>
 
-      <ParentComponentClass greet="Hi" />
+      <ParentComponentClass />
       <ParentComponentClass greet="Hello" /> */}
 
         {/* <NameList /> */}
 
         {/* <Hello /> */}
 
-        <FormClass />
+        {/* <FormClass /> */}
+
+        <ParentComponentClass />
       </div>
     </div>
   );
