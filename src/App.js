@@ -14,6 +14,8 @@ import NameList from "./components/NameList";
 
 import FormClass from "./components/FormClass";
 
+import RefsDemo from "./components/RefsDemo";
+
 function App() {
   return (
     <div className="App">
@@ -44,7 +46,9 @@ function App() {
 
         {/* <FormClass /> */}
 
-        <ParentComponentClass />
+        {/* <ParentComponentClass /> */}
+
+        <RefsDemo />
       </div>
     </div>
   );
