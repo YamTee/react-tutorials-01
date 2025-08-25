@@ -16,6 +16,10 @@ import FormClass from "./components/FormClass";
 
 import RefsDemo from "./components/RefsDemo";
 
+import FocusInput from "./components/FocusInput";
+
+import FRParentInput from "./components/FRParentInput";
+
 function App() {
   return (
     <div className="App">
@@ -47,8 +51,12 @@ function App() {
         {/* <FormClass /> */}
 
         {/* <ParentComponentClass /> */}
-
+        {/*
         <RefsDemo />
+
+        <FocusInput />*/}
+
+        <FRParentInput />
       </div>
     </div>
   );
