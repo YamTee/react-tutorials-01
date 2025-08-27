@@ -1,24 +1,33 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Greet from "./components/Greet";
-import Hello from "./components/Hello";
-import GreetClass from "./components/GreetClass";
+// import Hello from "./components/Hello";
+// import GreetClass from "./components/GreetClass";
 
-import MessageClass from "./components/MessageClass";
+// import MessageClass from "./components/MessageClass";
 
-import CounterClass from "./components/CounterClass";
+// import CounterClass from "./components/CounterClass";
 
-import ParentComponentClass from "./components/ParentComponentClass";
+// import ParentComponentClass from "./components/ParentComponentClass";
 
-import NameList from "./components/NameList";
+// import NameList from "./components/NameList";
 
-import FormClass from "./components/FormClass";
+// import FormClass from "./components/FormClass";
 
-import RefsDemo from "./components/RefsDemo";
+// import RefsDemo from "./components/RefsDemo";
 
-import FocusInput from "./components/FocusInput";
+// import FocusInput from "./components/FocusInput";
 
-import FRParentInput from "./components/FRParentInput";
+// import FRParentInput from "./components/FRParentInput";
+
+// import PortalDemo from "./components/PortalDemo";
+
+// import Hero from "./components/Hero";
+
+// import ErrorBoundary from "./components/ErrorBoundary";
+
+import ButtonCounter from "./components/ButtonCounter";
+import HoverCounter from "./components/HoverCounter";
 
 function App() {
   return (
@@ -56,7 +65,24 @@ function App() {
 
         <FocusInput />*/}
 
-        <FRParentInput />
+        {/* <FRParentInput />*/}
+
+        {/* <PortalDemo />*/}
+
+        {/* <ErrorBoundary>
+          <Hero heroName="Batman" />
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName="SuperMan" />
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName="Joker" />
+        </ErrorBoundary> */}
+
+        <ButtonCounter />
+        <HoverCounter />
       </div>
     </div>
   );
